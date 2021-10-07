@@ -5,6 +5,7 @@ package com.sh.listnode;
  * @create: 2021-10-05 14:43
  */
 public class Solution141 {
+
     // public boolean hasCycle(ListNode head) {
     //     if(head == null){
     //         return false;
@@ -101,14 +102,4 @@ public class Solution141 {
         return fast;
     }
 
-}
-
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode(int x) {
-        val = x;
-        next = null;
-    }
 }
